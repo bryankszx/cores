@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color:  tomato;
+    transition: background-color 1s;
 }
 
 input{
@@ -24,6 +25,6 @@ input{
 
 button{
     padding: 8px 12px;
-    font-size: 24px;
+    font-size: 12px;
     cursor: pointer;
 }
