@@ -1,8 +1,6 @@
-:root{
- --cor-fundo: #45df67;
+:root {
+    --cor-fundo: #589727;
 }
-
-
 *{
     margin: 0;
     padding: 0;
@@ -14,17 +12,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  tomato;
+    background-color: var(--cor-fundo);
     transition: background-color 1s;
 }
-
 input{
     padding: 8px 12px;
-    font-size: 12px;
+    font-size: 24px;
 }
-
 button{
     padding: 8px 12px;
-    font-size: 12px;
+    font-size: 24px;
     cursor: pointer;
 }
